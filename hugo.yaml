@@ -25,3 +25,7 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
+
+caches:
+  images:
+    dir: :cacheDir/images
