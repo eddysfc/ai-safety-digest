@@ -1,0 +1,27 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Eddy Jiang
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: Eddy's AI Safety Digest
+    Content: Hi, I'm Eddy, a BSCS student at UIUC. This blog documents my journey into AI safety research, focusing on alignment, interpretability, and robustness in machine learning systems.
+  
+  socialIcons:
+  - name: github
+    url: https://github.com/eddysfc
+    title: Check out my GitHub!
+  - name: linkedin
+    url: https://eddyjiang.com/
+    title: Connect with me on LinkedIn!
+  - name: other
+    url: https://eddyjiang.com/
+    title: Visit my main website!
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
