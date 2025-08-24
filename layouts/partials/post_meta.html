@@ -1,0 +1,10 @@
+{{ if not (.Param "hideMeta") }}
+<div class="post-meta">
+    <span class="post-date">Published {{ .Date | time.Format ":date_medium" }}</span>
+    {{ $lm := .Lastmod }}
+    {{ if and $lm (ne $lm .Date) }}
+    <span class="lastmod">&nbsp;· Updated {{ $lm | time.Format ":date_medium" }}</span>
+    {{ end }}
+    &nbsp;· {{ .ReadingTime }} min read
+</div>
+{{ end }}

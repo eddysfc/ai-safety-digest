@@ -25,6 +25,7 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
+  showLastmod: true
 
 caches:
   images:
