@@ -1,0 +1,29 @@
+sup[id^="fnref"] {
+    font-size: inherit;
+    vertical-align: baseline;
+    line-height: inherit;
+    position: static;
+}
+
+sup[id^="fnref"] a.footnote-ref::before {
+    content: "[";
+}
+
+sup[id^="fnref"] a.footnote-ref::after {
+    content: "]";
+}
+
+.footnotes ol {
+    list-style: none;
+    counter-reset: footnote-counter;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footnotes ol li {
+    counter-increment: footnote-counter;
+}
+
+.footnotes ol li p:first-of-type::before {
+    content: "[" counter(footnote-counter) "] ";
+}
