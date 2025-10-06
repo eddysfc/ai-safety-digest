@@ -1,23 +1,30 @@
-baseURL: https://example.org/
+baseURL: https://eddysfc.github.io/ai-safety-digest/
 languageCode: en-us
-title: Eddy Jiang
+title: Eddy's AI Safety Digest
 theme: ["PaperMod"]
 
 params:
   homeInfoParams:
-    Title: Eddy's AI Safety Digest
-    Content: Hi, I'm Eddy, a BSCS student at UIUC. This blog documents my journey into AI safety research, focusing on alignment, interpretability, and robustness in machine learning systems.
-  
+    Title: Welcome!
+    Content: Hi, I'm Eddy, a CS undergraduate at UIUC. This blog documents my journey into AI safety research, focusing on alignment, interpretability, and robustness in machine learning systems.
+
   socialIcons:
-  - name: github
-    url: https://github.com/eddysfc
-    title: Check out my GitHub!
-  - name: linkedin
-    url: https://www.linkedin.com/in/eddysfc/
-    title: Connect with me on LinkedIn!
-  - name: other
-    url: https://eddyjiang.com/
-    title: Visit my main website!
+    - name: github
+      url: https://github.com/eddysfc
+      title: Check out my GitHub!
+    - name: linkedin
+      url: https://www.linkedin.com/in/eddysfc/
+      title: Connect with me on LinkedIn!
+    - name: other
+      url: https://eddyjiang.com/
+      title: Visit my main website!
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    android_chrome: "android-chrome-192x192.png"
 
   ShowShareButtons: true
   ShowReadingTime: true
